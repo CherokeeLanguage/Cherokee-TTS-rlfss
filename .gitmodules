@@ -1,0 +1,3 @@
+[submodule "UniversalVocoding"]
+	path = UniversalVocoding
+	url = ../UniversalVocoding.git
