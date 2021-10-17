@@ -112,9 +112,13 @@ def preprocess_dataset(args):
     print(f"Wrote {len(lengths)} utterances, {frames} frames ({hours:.2f} hours)")
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(description="Preprocess an audio dataset.")
     parser.add_argument("in_dir", help="Path to the dataset directory")
     parser.add_argument("out_dir", help="Path to the output directory")
     args = parser.parse_args()
     preprocess_dataset(args)
+
+
+if __name__ == "__main__":
+    main()
