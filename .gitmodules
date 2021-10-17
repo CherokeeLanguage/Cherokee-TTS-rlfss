@@ -4,3 +4,6 @@
 [submodule "datasets/cherokee-audio-data"]
 	path = datasets/cherokee-audio-data
 	url = ../cherokee-audio-data.git
+[submodule "datasets/cherokee-audio-data-private"]
+	path = datasets/cherokee-audio-data-private
+	url = ../cherokee-audio-data-private.git
